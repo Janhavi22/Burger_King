@@ -15,9 +15,9 @@ const Home = () => {
       <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
      <img src={imglogo} className="h-11 rounded-[50]" alt="Tailwind Play" />
-      <a href="/">Cart....</a>
-      <a href="/">About Us.....</a>
-      <a href="/">Login....</a>
+      <a href="/">Cart</a>
+      <a href="/">About Us</a>
+      <a href="/">Login</a>
       <a href="/">Nearby Stores</a>
       
       <div className="container">
