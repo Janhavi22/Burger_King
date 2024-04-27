@@ -14,11 +14,13 @@ const Home = () => {
     <div className="navbar">
       <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+     <div className="navbar1">
      <img src={imglogo} className="h-11 rounded-[50]" alt="Tailwind Play" />
       <a href="/">Cart</a>
       <a href="/">About Us</a>
       <a href="/">Login</a>
       <a href="/">Nearby Stores</a>
+     </div>
       
       <div className="container">
     <div class="burger-card">
