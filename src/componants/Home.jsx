@@ -24,39 +24,39 @@ const Home = () => {
       
       <div className="container">
     <div class="burger-card">
-        <img src={img1} alt="Burger 1"/>
+        <center><img src={img1} alt="Burger 1"/></center>
         <h2>Veggie Burger</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
+        <p>Lorem ipsum dolor sit amet Totam deleniti voluptate vel</p>
         <p>Rs.89/-</p>
       </div>
       <div className="burger-card">
-        <img src={img2} alt="Burger 2"/>
+        <center><img src={img2} alt="Burger 2"/></center>
         <h2>Simple Burger</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
+        <p>Lorem ipsum dolor sit amet Totam deleniti voluptate vel</p>
         <p>Rs.70/-</p>
       </div>
       <div className="burger-card">
-        <img src={img3} alt="Burger 3"/>
+        <center><img src={img3} alt="Burger 3"/></center>
         <h2>Veggie Burger</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
+        <p>Lorem ipsum dolor sit amet Totam deleniti voluptate vel</p>
         <p>Rs.120/-</p>
       </div>
       <div className="burger-card">
-        <img src={img4} alt="Burger 4"/>
+        <center><img src={img4} alt="Burger 4"/></center>
         <h2>Special Burger</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
+        <p>Lorem ipsum dolor sit amet Totam deleniti voluptate vel</p>
         <p>Rs.110/-</p>
       </div>
       <div className="burger-card">
-        <img src={img5}alt="Burger 5"/>
+        <center><img src={img5}alt="Burger 5"/></center>
         <h2>Jumbo Burger</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
+        <p>Lorem ipsum dolor sit amet Totam deleniti voluptate vel</p>
         <p>Rs.170/-</p>
       </div>
     <div className="burger-card">
-      <img src={img6} alt="Burger 6"/>
+      <center><img src={img6} alt="Burger 6"/></center>
       <h2>Large Cheese Burger</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
+      <p>Lorem ipsum dolor sit ametTotam deleniti voluptate vel</p>
       <p>Rs.200/-</p>
     </div>
     </div>
