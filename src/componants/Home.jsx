@@ -26,31 +26,37 @@ const Home = () => {
     <div class="burger-card">
         <img src={img1} alt="Burger 1"/>
         <h2>Veggie Burger</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
         <p>Rs.89/-</p>
       </div>
       <div className="burger-card">
         <img src={img2} alt="Burger 2"/>
         <h2>Simple Burger</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
         <p>Rs.70/-</p>
       </div>
       <div className="burger-card">
         <img src={img3} alt="Burger 3"/>
         <h2>Veggie Burger</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
         <p>Rs.120/-</p>
       </div>
       <div className="burger-card">
         <img src={img4} alt="Burger 4"/>
         <h2>Special Burger</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
         <p>Rs.110/-</p>
       </div>
       <div className="burger-card">
         <img src={img5}alt="Burger 5"/>
         <h2>Jumbo Burger</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
         <p>Rs.170/-</p>
       </div>
     <div className="burger-card">
       <img src={img6} alt="Burger 6"/>
       <h2>Large Cheese Burger</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti voluptate vel?</p>
       <p>Rs.200/-</p>
     </div>
     </div>
