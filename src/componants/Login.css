@@ -1,6 +1,7 @@
 body{
     background: pink;
 }
+/* -------------------------------------Login------------------------------------ */
 .login{
     width: 450px;
     height: 200px;
@@ -38,10 +39,12 @@ body{
     background-color: #ddd;
     color: orange;
   }
+
+  /* -----------------------------------Home------------------------------------ */
   .navbar1{
     background: orange;
     padding: 20px;
-    padding-right: 90px;
+    position: relative;
   }
   .navbar1 img{
     width: 100px;
@@ -49,6 +52,9 @@ body{
     border-radius: 20px;
    object-fit: cover;
 
+  }
+  .navbar1 a{
+    margin-top: 20px;
   }
   .container {
     max-width: 1200px;
