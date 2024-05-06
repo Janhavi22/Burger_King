@@ -24,6 +24,10 @@ const Home = () => {
      </div>
       
       <div className="container">
+    <div className="box1">
+
+    </div>
+    <div className="box2">
     <div class="burger-card">
         <center><img src={img1} alt="Burger 1"/></center>
         <h2>Veggie Burger</h2>
@@ -59,6 +63,7 @@ const Home = () => {
       <h2>Large Cheese Burger</h2>
       <p>Lorem ipsum dolor sit ametTotam deleniti voluptate vel</p>
       <p>Rs.200/-</p>
+    </div>
     </div>
     </div>
 
