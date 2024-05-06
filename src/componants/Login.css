@@ -17,30 +17,30 @@ body{
     padding: 5px;
     font-size: 18px;
 }
+/* -----------------------------------Home------------------------------------ */
 .navbar {
-    background-color: beige;
-    color: #fff;
-    overflow: hidden;
+  background-color: beige;
+  color: #fff;
+  overflow: hidden;
   }
-
+  
   .navbar a {
     float: right;
     display: block;
     color: #fff;
     font-size: 20px;
     text-align: center;
-   
-
+    margin-top: 20px;
+    margin: 10px;
     padding: 14px 16px;
     text-decoration: none;
   }
-
+  
   .navbar a:hover {
     background-color: #ddd;
     color: orange;
+    
   }
-
-  /* -----------------------------------Home------------------------------------ */
   .navbar1{
     background: orange;
     padding: 20px;
@@ -53,9 +53,7 @@ body{
    object-fit: cover;
 
   }
-  .navbar1 a{
-    margin-top: 20px;
-  }
+  
   .container {
     max-width: 1200px;
     margin: 20px auto;
