@@ -56,9 +56,7 @@ body{
   .container{
     display: grid;
   }
-  .box1{
-    
-  }
+  
   .box2{
     max-width: 1200px;
     margin: 20px auto;
