@@ -25,7 +25,6 @@ const Home = () => {
       
       <div className="container">
     <div className="box1">
-
     </div>
     <div className="box2">
     <div class="burger-card">
