@@ -22,6 +22,7 @@ const Home = () => {
       <a href="/">Nearby Stores</a>
       <img src={imglogo} className="" alt="Tailwind Play" />
      </div>
+     
       
       <div className="container">
     <div className="box1">
