@@ -12,6 +12,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 .login label,input,button{
     margin: 20px;
     padding: 5px;
