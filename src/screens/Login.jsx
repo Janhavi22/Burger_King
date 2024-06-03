@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imglogo from '../images/g1.gif';
+import imglogo from '../images/logo.png';
  
 
 const Login = () => {    
@@ -16,8 +16,7 @@ const Login = () => {
     <div className="navbar1">
       <a href="/">Cart</a>
       <a href="/">About Us</a>
-      <a href="/">Login</a>
-      <a href="/">Nearby Stores</a>
+      
       <img src={imglogo} className="" alt="Tailwind Play" />
      </div>
     </div>

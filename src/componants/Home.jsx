@@ -1,12 +1,7 @@
 import React from 'react'
 import burger from '../burgerdata'
+import Burger from '../componants/Burger'
 
-import img1 from '../images/b1.jpg';
-import img2 from '../images/b2.jpg';
-import img3 from '../images/b3.jpg';
-import img4 from '../images/b4.jpg';
-import img5 from '../images/b5.jpg';
-import img6 from '../images/b6.jpg';
 
 
 const Home = () => {
@@ -14,7 +9,17 @@ const Home = () => {
     <div className="main">
       
 
-     <h1>{burger.length}</h1>
+     <div className="row">
+      {burger.map(burger=>{
+
+          return <div className="column">
+            <div>
+              <Burger burger={burger}/>
+            </div>
+          </div>
+
+      })}
+     </div>
      
 
    
@@ -24,6 +29,9 @@ const Home = () => {
 }
 
 export default Home
+
+
+
   {/*       
         <div className="container">
       <div className="box1">
