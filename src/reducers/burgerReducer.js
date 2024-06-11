@@ -1,7 +1,7 @@
 export const getAllBurgersReducer=(state={} ,action)=>{
     switch(action.type){
         case 'GET_BURGERS_REQUEST':return{
-            ...state
+            state
         }
         case 'GET_BURGERS_SUCCESS': return{
             burgers : action.payload
