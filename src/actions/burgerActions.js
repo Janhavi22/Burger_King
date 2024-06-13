@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from "axios";
 export const getAllBurgers=()=>dispatch=>{
 
     dispatch({type:'GET_BURGERS_REQUEST'})

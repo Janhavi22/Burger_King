@@ -6,7 +6,7 @@ import { getAllBurgersReducer } from './reducers/burgerReducer'
 const finalReducer = combineReducers({
     getAllBurgersReducer : getAllBurgersReducer
 })
-const initialState={}
+const initialState = {}
 const composeEnhancers = composeWithDevTools({})
 
 
