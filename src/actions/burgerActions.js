@@ -1,10 +1,10 @@
 import axios from "axios";
-export const getAllBurgers=()=>dispatch=>{
+export const getAllBurgers=()=>async dispatch=>{
 
     dispatch({type:'GET_BURGERS_REQUEST'})
 
     try{
-        const response = axios.get('/api/burgers/getburgers')
+        const response =await axios.get('/api/burgers/getallburgers')
         console.log(response)
         dispatch({type:'GET_BURGERS_SUCCESS',payload :response.data})
     }catch(error){

@@ -1,8 +1,11 @@
-import React from 'react'
+import React , {useState,useEffect} from 'react';
+import { useDispatch,useSelector } from 'react-redux';
 import burger from '../burgerdata'
 import Burger from '../componants/Burger'
-
-
+const dispatch = useDispatch()
+useEffect(()=>{
+  dispatch(getAllBurgers())
+},[])
 
 const Home = () => {
   return (
