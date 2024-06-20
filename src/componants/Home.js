@@ -9,8 +9,7 @@ useEffect(()=>{
 
 const Home = () => {
   return (
-    <div className="main">
-      
+    <div className="main">      
 
      <div className="row">
       {burger.map(burger=>{
