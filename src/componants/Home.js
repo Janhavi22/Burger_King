@@ -1,40 +1,35 @@
-import React , {useState,useEffect} from 'react';
-import { useDispatch,useSelector } from 'react-redux';
-import burger from '../burgerdata'
-import Burger from '../componants/Burger'
-const dispatch = useDispatch()
-useEffect(()=>{
-  dispatch(getAllBurgers())
-},[])
+import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import burger from "../burgerdata";
+import Burger from "../componants/Burger";
+import { getAllBurgers } from "../actions/burgerActions";
 
 const Home = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getAllBurgers());
+  }, []);
   return (
-    <div className="main">      
-
-     <div className="row">
-      {burger.map(burger=>{
-
-          return <div className="column">
-            <div>
-              <Burger burger={burger}/>
+    <div className="main">
+      <div className="row">
+        {burger.map((burger,idx) => {
+          return (
+            <div key={`burger${idx}`} className="column">
+              <div>
+                <Burger burger={burger} />
+              </div>
             </div>
-          </div>
-
-      })}
-     </div>
-     
-
-   
-   
+          );
+        })}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
 
-
-
-  {/*       
+{
+  /*       
         <div className="container">
       <div className="box1">
       </div>
@@ -77,4 +72,5 @@ export default Home
       </div>
       </div>
       </div>
-   */}
+   */
+}
