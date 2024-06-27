@@ -1,7 +1,6 @@
 import axios from "axios";
 export const getAllBurgers = () => async (dispatch) => {
   dispatch({ type: "GET_BURGERS_REQUEST" });
-
   try {
     const response = await axios.get("/api/burgers/getallburgers");
     console.log(response);
