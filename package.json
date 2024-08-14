@@ -36,5 +36,9 @@
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "web-vitals": "^4.1.0"
   },
+  "allowedHosts": [
+    "localhost",
+    ".localhost"
+  ],
   "proxy": "http://localhost:5000/"
 }
