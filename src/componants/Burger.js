@@ -1,24 +1,25 @@
 import React, { useState } from "react";
-// import {Modal} from 'react-bootstrap'
+import {Modal} from 'react-bootstrap'
+
 
 function Burger({ burger }) {
   const [quantity, setquantity] = useState(1);
   const [varient, setvarient] = useState("small");
 
-  // const [show, setShow] = useState(false);
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div className="main-container">
       <div className="container">
         <center>
           <div className="burger-card">
-            {/* <div onClick={handleShow}> */}
+            <div onClick={handleShow}>
             <center>
               <img src={burger.image} alt="Burger" />
             </center>
             <h1>{burger.name}</h1>
-            {/* </div> */}
+            </div>
             <div className="sidebox">
               <div>
                 <p>Varients</p>
@@ -66,7 +67,7 @@ function Burger({ burger }) {
           </div>
         </center>
       </div>
-      {/* <Modal show={show}>
+      <Modal show={show}>
         <Modal.Header closeButton>
           <Modal.Title>{burger.name}</Modal.Title>
         </Modal.Header>
@@ -78,7 +79,7 @@ function Burger({ burger }) {
         <Modal.Footer>
           <button className='modalbtn' onClick={handleClose}>Close</button>
         </Modal.Footer>
-      </Modal> */}
+      </Modal>
     </div>
   );
 }

@@ -1,36 +1,29 @@
-import React from 'react';
+import React from "react";
 
-import imglogo from '../images/logo.png';
- 
+import imglogo from "../images/g1.gif";
 
-const Login = () => {    
-        
-      
-
+const Login = () => {
   return (
     <div>
       {/* <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> */}
 
-    <div className="navbar">
-    <div className="navbar1">
-      <a href="/">Cart</a>
-      <a href="/">About Us</a>
-      
-      <img src={imglogo} className="" alt="Tailwind Play" />
-     </div>
+      <div className="navbar">
+        <div className="navbar1">
+          <a href="/">Cart</a>
+          <a href="/">About Us</a>
+
+          <img src={imglogo} className="" alt="Tailwind Play" />
+        </div>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
 
-
-
-
-
-{/* <center>
+{
+  /* <center>
 <h1>Login here</h1> 
 
 <div className='login'>
@@ -56,4 +49,5 @@ export default Login
 <button type="submit">Login</button>
 </form>
 </div>
-</center> */}
+</center> */
+}
