@@ -4,7 +4,6 @@ import React, { useState } from "react";
 function Burger({ burger }) {
   const [quantity, setquantity] = useState(1);
   const [varient, setvarient] = useState("small");
-
   // const [show, setShow] = useState(false);
   // const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
