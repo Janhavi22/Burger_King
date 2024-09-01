@@ -13,7 +13,6 @@ function Burger({ burger }) {
         <center>
           <div className="burger-card">
             {/* <div onClick={handleShow}> */}
-
             <center>
               <img src={burger.image} alt="Burger" />
             </center>
