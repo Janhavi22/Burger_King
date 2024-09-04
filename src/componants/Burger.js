@@ -70,7 +70,6 @@ function Burger({ burger }) {
         <Modal.Header closeButton>
           <Modal.Title>{burger.name}</Modal.Title>
         </Modal.Header>
-
         <Modal.Body>
           <center>
             <img src={burger.image} alt="Burger" />
