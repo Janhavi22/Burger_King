@@ -66,6 +66,7 @@ function Burger({ burger }) {
           </div>
         </center>
       </div>
+      
       {/* <Modal show={show}>
         <Modal.Header closeButton>
           <Modal.Title>{burger.name}</Modal.Title>
